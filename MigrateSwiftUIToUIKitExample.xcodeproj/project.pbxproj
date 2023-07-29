@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96F0F28A2A75A80600675133 /* MigrateSwiftUIToUIKitExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0F2892A75A80600675133 /* MigrateSwiftUIToUIKitExampleApp.swift */; };
 		96F0F28C2A75A80600675133 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0F28B2A75A80600675133 /* ContentView.swift */; };
 		96F0F28E2A75A80700675133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F0F28D2A75A80700675133 /* Assets.xcassets */; };
 		96F0F2912A75A80700675133 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F0F2902A75A80700675133 /* Preview Assets.xcassets */; };
+		96F0F2982A75A83100675133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0F2972A75A83100675133 /* AppDelegate.swift */; };
+		96F0F29A2A75A88E00675133 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0F2992A75A88E00675133 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		96F0F2862A75A80600675133 /* MigrateSwiftUIToUIKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MigrateSwiftUIToUIKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		96F0F2892A75A80600675133 /* MigrateSwiftUIToUIKitExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrateSwiftUIToUIKitExampleApp.swift; sourceTree = "<group>"; };
 		96F0F28B2A75A80600675133 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96F0F28D2A75A80700675133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96F0F2902A75A80700675133 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96F0F2972A75A83100675133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96F0F2992A75A88E00675133 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96F0F29B2A75A91100675133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		96F0F29C2A75AA9800675133 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		96F0F27D2A75A80600675133 = {
 			isa = PBXGroup;
 			children = (
+				96F0F29C2A75AA9800675133 /* README.md */,
 				96F0F2882A75A80600675133 /* MigrateSwiftUIToUIKitExample */,
 				96F0F2872A75A80600675133 /* Products */,
 			);
@@ -51,10 +56,12 @@
 		96F0F2882A75A80600675133 /* MigrateSwiftUIToUIKitExample */ = {
 			isa = PBXGroup;
 			children = (
-				96F0F2892A75A80600675133 /* MigrateSwiftUIToUIKitExampleApp.swift */,
+				96F0F29B2A75A91100675133 /* Info.plist */,
 				96F0F28B2A75A80600675133 /* ContentView.swift */,
 				96F0F28D2A75A80700675133 /* Assets.xcassets */,
 				96F0F28F2A75A80700675133 /* Preview Content */,
+				96F0F2972A75A83100675133 /* AppDelegate.swift */,
+				96F0F2992A75A88E00675133 /* SceneDelegate.swift */,
 			);
 			path = MigrateSwiftUIToUIKitExample;
 			sourceTree = "<group>";
@@ -137,8 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F0F2982A75A83100675133 /* AppDelegate.swift in Sources */,
 				96F0F28C2A75A80600675133 /* ContentView.swift in Sources */,
-				96F0F28A2A75A80600675133 /* MigrateSwiftUIToUIKitExampleApp.swift in Sources */,
+				96F0F29A2A75A88E00675133 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +278,7 @@
 				DEVELOPMENT_TEAM = G85YYYKRLS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MigrateSwiftUIToUIKitExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +307,7 @@
 				DEVELOPMENT_TEAM = G85YYYKRLS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = MigrateSwiftUIToUIKitExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
